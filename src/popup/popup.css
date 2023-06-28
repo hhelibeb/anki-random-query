@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, "Microsoft Yahei", sans-serif;
+    font-size: 12px;
+    width: 220px;
+    border-radius: 5px;
+    margin: 2px 4px;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    background-color: #93a085;
+    border-radius: 5px 5px 0 0;
+    margin: 0 0 4px;
+    padding: 4px 15px;
+}
+
+label{
+    padding: 4px 5px;
+       margin: 3px;
+       display: inline-block;
+       color: black;
+       border-radius: 4px;
+   }
+   
+input, select, button {
+ padding: 4px 5px;
+    margin: 3px;
+    display: inline-block;
+    color: black;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+}
+
+button {
+    width: auto;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #5A5A5A;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
